@@ -24,7 +24,7 @@ a {
 section {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  display: inline-block;
+  grid-template-rows:  3fr 1fr;
 }
 
 section img {
@@ -32,6 +32,10 @@ section img {
   height: 169px;
 }
 
+.two,.three {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
 
 #footer {
   display: grid;
