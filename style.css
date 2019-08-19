@@ -13,6 +13,17 @@ ul li {
 }
 
 .one {
-
   grid-column: 2/3;
 }
+
+.one img {
+  width: 847px;
+  height: 476px;
+}
+
+#footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 200px;
+}
+
