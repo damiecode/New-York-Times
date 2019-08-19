@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,6 +10,10 @@ body {
 
 ul li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .one {
@@ -25,5 +29,9 @@ ul li {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 200px;
+}
+
+.footer-links ul li {
+  display: inline-block;
 }
 
