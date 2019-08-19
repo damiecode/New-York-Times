@@ -16,14 +16,22 @@ a {
   text-decoration: none;
 }
 
-.one {
-  grid-column: 2/3;
-}
-
 .one img {
   width: 847px;
   height: 476px;
 }
+
+section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  display: inline-block;
+}
+
+section img {
+  width: 254px;
+  height: 169px;
+}
+
 
 #footer {
   display: grid;
