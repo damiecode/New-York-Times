@@ -4,21 +4,77 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.body {
-  display: grid;
+
+
+
+.div3{
+  align-content: center;
+  padding: 350px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.div3 img{
+  width: 650px;
+
+}
+
+.lastp{
+
+  font-size: 10px;
+
+
+}
+
+#dennis{
+  font-weight: bold;
+}
+
 }
 
 ul li {
   list-style: none;
+
+}
+
+.list{
+  display: inline;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
-.one img {
-  width: 847px;
-  height: 476px;
+.one {
+ /* background-color: purple;*/
+  text-align: center;
+  margin-top: 5px;
+}
+ .one img{
+  height: 500px;
+  width: 800px;
+ }
+
+
+.one h1{
+
+   text-align: center;
+}
+
+.one.p{
+  text-indent: 60px right;
+}
+
+h3{
+
+  text-align: center;
+}
+
+.body p{
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 section {
@@ -47,3 +103,72 @@ section img {
   display: inline-block;
 }
 
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*background-color: blue;*/
+}
+
+
+article {
+
+  align-content: center;
+  
+   
+
+}
+
+button{
+  align-content: center;
+  height: 30px;
+  align-content: right;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.div1{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /*background-color: pink;*/
+}
+
+.div1 #toggler{
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+.div1 #search{
+  flex: left;
+  margin-left: -100px;
+  margin-top: 18px;
+}
+
+.div1 #space{
+  margin-top: 18px;
+  font-size:15px;
+  margin-left: -200px;
+}
+
+
+.div2{
+  
+  /*background-color: red;*/
+}
+
+.div2 p{
+
+  font-family: franklin gothic;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.button1{
+  width: 150px;
+  margin-left: 200px;
+}
+
+.button2{
+  width: 90px;
+}
