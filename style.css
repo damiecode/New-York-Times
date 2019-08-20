@@ -130,7 +130,7 @@ nav {
   text-align: center;
   margin-top: 5px;
 }
-.one h1{
+.one h1 {
   margin-top: 100px;
   text-align: center;
 }
@@ -213,23 +213,23 @@ section img {
   color: #ccc;
 }
 
-nav{
+nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.div1{
+.div1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.div1 #search{
+.div1 #search {
   flex: left;
   margin-left: -100px;
   margin-top: 18px;
 }
 
-.div1 #space{
+.div1 #space {
   margin-top: 18px;
   font-size:15px;
   margin-left: -200px;
@@ -240,13 +240,13 @@ nav{
   margin-top: 18px;
 }
 
-.div2 p{
+.div2 p {
   font-family: Franklin gothic;
   text-align: center;
   font-size: 20px;
 }
 
-footer{
+footer {
   margin-top: -300px;
   font-family: nyt-franklin;
 }
