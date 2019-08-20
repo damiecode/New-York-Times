@@ -258,7 +258,6 @@ footer h3 {
 }
 
 footer .title { 
-font-weight: bolder; 
+  font-weight: bolder; 
   margin-top: -20px; 
-  margin-bottom: 10px; 
-}
+  margin-bottom: 10px; }
