@@ -8,7 +8,20 @@ hr{
   margin-bottom: 10px;
 }
 
-
+.one p {
+  float: left;
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  margin-left: 280px;
+  color: #666;
+  font-family: nyt-imperial,
+  georgia,
+  'times new roman',
+  times,
+  serif;
+}
 
 .div3{
   align-content: center;
@@ -33,14 +46,14 @@ hr{
   font-weight: bold;
 }
 
-}
 
 ul li {
   list-style: none;
 
 }
 
-.list{
+
+.social ul li {
   display: inline;
 }
 
@@ -86,10 +99,13 @@ h3{
   text-align: center;
 }
 
+.body img {
+  width: 847px;
+  height: 476px;
+}
 .body p{
   margin-left: 20px;
   margin-right: 20px;
-
 }
 
 section {
