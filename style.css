@@ -80,6 +80,10 @@ div .inflation {
   font-size: 14px;
 }
 
+hr {
+  margin-bottom: 10px;
+}
+
 div .inflation hr {
   width: 50px;
   margin-top: -10px;
@@ -122,15 +126,10 @@ nav {
   margin-bottom: 20px;
 }
 
-hr{
-  margin-bottom: 10px;
-}
-
 .one {
   text-align: center;
   margin-top: 5px;
 }
-
 .one h1{
   margin-top: 100px;
   text-align: center;
