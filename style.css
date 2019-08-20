@@ -1,12 +1,12 @@
 body {
   margin: auto;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 @font-face {
   font-family: Title;
-  src: url(./fonts/Lordish.ttf);
+  src: url(./fonts/Durwent.ttf);
 }
 
 .div2 h1 {
@@ -39,6 +39,8 @@ hr{
 
 .div3{
   align-content: center;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   padding: 350px;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -46,14 +48,10 @@ hr{
 
 .div3 img{
   width: 650px;
-
 }
 
 .lastp{
-
   font-size: 10px;
-
-
 }
 
 #dennis{
@@ -63,7 +61,6 @@ hr{
 
 ul li {
   list-style: none;
-
 }
 
 
@@ -77,7 +74,6 @@ a {
 }
 
 .one {
- /* background-color: purple;*/
   text-align: center;
   margin-top: 5px;
 }
@@ -88,7 +84,6 @@ a {
 
 
 .one h1{
-
    text-align: center;
 }
 
@@ -101,7 +96,6 @@ a {
 }
 
 .Rick{
-
   font-size: 11px;
   margin-top: -10px;
   color:grey;
@@ -109,7 +103,6 @@ a {
 }
 
 h3{
-
   text-align: center;
 }
 
@@ -144,25 +137,22 @@ section img {
   grid-template-rows: 300px;
 }
 
+.footer-links hr {
+  margin-top: 20px;
+}
 .footer-links ul li {
   display: inline-block;
+  margin-left: 25px;
+  color: #ccc;
 }
 
 nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /*background-color: blue;*/
-
-
 }
 
-
 article {
-
   align-content: center;
-  
-   
-
 }
 
 button{
@@ -177,10 +167,8 @@ button{
 }
 
 .div1{
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /*background-color: pink;*/
 }
 
 .div1 #toggler{
@@ -200,18 +188,10 @@ button{
   margin-left: -200px;
 }
 
-
-.div2{
-  
-  /*background-color: red;*/
-}
-
 .div2 p{
-
   font-family: Franklin gothic;
   text-align: center;
   font-size: 20px;
-
 }
 
 .button1{
@@ -221,4 +201,26 @@ button{
 
 .button2{
   width: 90px;
+}
+
+footer{
+  margin-top: -300px;
+  font-family: nyt-franklin;
+}
+
+footer h3 {
+  font-family: Title;
+  text-align: left;
+  margin-left: 30px;
+}
+
+footer .title {
+  font-weight: bolder;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+ line-height: 22px;
+ font-size: 12px;
 }
