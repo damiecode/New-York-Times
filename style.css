@@ -100,7 +100,7 @@ div .inflation hr {
 }
 
 .div2 h1 {
-  font-family: "Title";
+  font-family: 'Title', Arial, Helvetica, sans-serif;
   font-size: 30px;
   margin-top: 10px;
 }
@@ -243,14 +243,14 @@ nav {
 }
 
 .div2 p {
-  font-family:' Franklin gothic';
+  font-family: 'Franklin gothic',Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 20px;
 }
 
 footer {
   margin-top: -300px;
-  font-family: 'nyt-franklin';
+  font-family: 'nyt-franklin',Arial,Helvetica,sans-serif;
 }
 
 footer h3 {
