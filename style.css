@@ -15,7 +15,7 @@ article {
   align-content: center;
 }
 
- article h3 {
+article h3 {
    text-align: left;
    font-size: 20px;
  }
@@ -166,15 +166,15 @@ ul li {
   text-align: center;
   margin-top: 5px;
 }
- .one img{
+
+.one h1 {
+  text-align: center;
+}
+
+.one img{
   height: 500px;
   width: 800px;
  }
-
-
-.one h1{
-   text-align: center;
-}
 
 .lastp {
   font-size: 10px;
@@ -229,11 +229,6 @@ nav{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.div1 #toggler{
-  margin-left: 10px;
-  margin-top: 18px;
-}
-
 .div1 #search{
   flex: left;
   margin-left: -100px;
@@ -244,6 +239,11 @@ nav{
   margin-top: 18px;
   font-size:15px;
   margin-left: -200px;
+}
+
+.div1 #toggler {
+  margin-left: 10px;
+  margin-top: 18px;
 }
 
 .div2 p{
