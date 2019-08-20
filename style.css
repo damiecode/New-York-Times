@@ -29,6 +29,12 @@ body {
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
+section img {
+  width: 254px;
+  height: 169px;
+}
+
+
 .body img {
   width: 847px;
   height: 476px;
@@ -110,12 +116,6 @@ div .inflation hr {
   padding-bottom: 30px;
 }
 
-section img {
-  width: 254px;
-  height: 169px;
-}
-
-
 .div3 img {
   width: 650px;
 }
@@ -170,6 +170,12 @@ footer ul li {
   font-size: 12px;
 }
 
+.footer-links ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color: #ccc;
+}
+
 .social ul li {
   display: inline;
   color: #ccc;
@@ -208,12 +214,6 @@ section {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 300px;
-}
-
-.footer-links ul li {
-  display: inline-block;
-  margin-left: 25px;
-  color: #ccc;
 }
 
 nav {
