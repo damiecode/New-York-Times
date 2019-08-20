@@ -254,7 +254,7 @@ footer {
 }
 
 footer h3 {
-  font-family: 'Title';
+  font-family: 'Title', Arial, Helvetica, sans-serif;
   text-align: left;
   margin-left: 30px;
 }
@@ -262,4 +262,4 @@ footer h3 {
 footer .title {
   font-weight: bolder;
   margin-top: -20px;
-  margin-bottom: 10px;}
+  margin-bottom: 10px; }
