@@ -4,6 +4,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+hr{
+  margin-bottom: 10px;
+}
 
 
 
@@ -62,8 +65,20 @@ a {
    text-align: center;
 }
 
-.one.p{
-  text-indent: 60px right;
+.allan{
+  padding-left: 270px;
+  padding-right: 300px;
+  font-size: 15px;
+  color:grey;
+  font-weight: 30px;
+}
+
+.Rick{
+
+  font-size: 11px;
+  margin-top: -10px;
+  color:grey;
+  font-weight: 10px;
 }
 
 h3{
@@ -107,6 +122,8 @@ nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /*background-color: blue;*/
+
+
 }
 
 
@@ -124,6 +141,9 @@ button{
   align-content: right;
   margin-top: 20px;
   border-radius: 4px;
+  background-color: lightblue;
+  color: white;
+  font-weight: 100;
 }
 
 .div1{
@@ -158,7 +178,7 @@ button{
 
 .div2 p{
 
-  font-family: franklin gothic;
+  font-family: Franklin gothic;
   text-align: center;
   font-size: 20px;
 
