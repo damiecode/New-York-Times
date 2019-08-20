@@ -189,10 +189,6 @@ footer ul li {
   color: #ccc;
 }
 
-.lastp {
-  font-size: 10px;
-}
-
 .Rick {
   font-size: 11px;
   margin-top: -10px;
@@ -262,3 +258,6 @@ footer {
   margin-top: -300px;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
+
+.lastp { font-size: 10px; }
+\n
