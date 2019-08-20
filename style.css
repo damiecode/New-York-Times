@@ -246,11 +246,6 @@ section {
   font-size: 20px;
 }
 
-footer {
-  margin-top: -300px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-}
-
 footer h3 {
   font-family: 'Title', Arial, Helvetica, sans-serif;
   text-align: left;
@@ -260,5 +255,10 @@ footer h3 {
 footer .title {
   font-weight: bolder;
   margin-top: -20px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: -300px;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
