@@ -4,6 +4,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+  font-family: Title;
+  src: url(./fonts/traditio.ttf);
+}
+
+.div2 h1 {
+  font-family: Title;
+  font-size: 40px;
+}
 
 .one p {
   float: left;
