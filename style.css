@@ -72,6 +72,8 @@ hr{
 
 #dennis{
   font-weight: bold;
+  margin-bottom: -20px;
+  font-size: 12px;
 }
 
 
@@ -79,9 +81,22 @@ ul li {
   list-style: none;
 }
 
+.date {
+  float: left;
+  margin-right: 350px;
+  font-size: 12px;
+}
+
+#social ul li {
+  display: inline;
+  margin-right: 10px;
+  color: #ccc;
+}
 
 .social ul li {
   display: inline;
+  color: #ccc;
+  margin-right: 10px;
 }
 
 a {
@@ -132,10 +147,21 @@ a {
   margin-right: 20px;
 }
 
+ div .inflation {
+  font-size: 14px;
+}
+
+div .inflation hr {
+  width: 50px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
 section {
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows:  3fr 1fr;
+  margin-left: 60px;
 }
 
 section img {
@@ -182,6 +208,12 @@ button{
   color: white;
   font-weight: 100;
   margin-top: 10px;
+}
+
+.button {
+  float: left;
+  margin-right: 350px;
+  margin-top: -10px;
 }
 
 .div1{
