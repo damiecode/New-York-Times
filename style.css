@@ -95,7 +95,7 @@ div .inflation hr {
 }
 
 .div2 h1 {
-  font-family: Title;
+  font-family: "Title";
   font-size: 30px;
   margin-top: 10px;
 }
@@ -255,7 +255,7 @@ footer {
 }
 
 footer h3 {
-  font-family: Title;
+  font-family: "Title";
   text-align: left;
   margin-left: 30px;
 }
