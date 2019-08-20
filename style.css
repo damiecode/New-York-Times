@@ -6,13 +6,18 @@ body {
 
 @font-face {
   font-family: Title;
-  src: url(./fonts/traditio.ttf);
+  src: url(./fonts/Lordish.ttf);
 }
 
 .div2 h1 {
   font-family: Title;
-  font-size: 40px;
+  font-size: 35px;
 }
+
+aside h3 {
+  text-align: left;
+}
+
 hr{
   margin-bottom: 10px;
 }
