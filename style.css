@@ -84,6 +84,10 @@ hr {
   margin-bottom: 10px;
 }
 
+.footer-links hr {
+  margin-top: 20px;
+}
+
 div .inflation hr {
   width: 50px;
   margin-top: -10px;
@@ -105,6 +109,12 @@ div .inflation hr {
   padding-top: 20px;
   padding-bottom: 30px;
 }
+
+section img {
+  width: 254px;
+  height: 169px;
+}
+
 
 .div3 img {
   width: 650px;
@@ -155,16 +165,21 @@ ul li {
   list-style: none;
 }
 
-#social ul li {
-  display: inline;
-  margin-right: 10px;
-  color: #ccc;
+footer ul li {
+  line-height: 22px;
+  font-size: 12px;
 }
 
 .social ul li {
   display: inline;
   color: #ccc;
   margin-right: 10px;
+}
+
+#social ul li {
+  display: inline;
+  margin-right: 10px;
+  color: #ccc;
 }
 
 .lastp {
@@ -184,11 +199,6 @@ section {
   margin-left: 60px;
 }
 
-section img {
-  width: 254px;
-  height: 169px;
-}
-
 .two,.three {
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -200,9 +210,6 @@ section img {
   grid-template-rows: 300px;
 }
 
-.footer-links hr {
-  margin-top: 20px;
-}
 .footer-links ul li {
   display: inline-block;
   margin-left: 25px;
@@ -257,9 +264,4 @@ footer .title {
   font-weight: bolder;
   margin-top: -20px;
   margin-bottom: 10px;
-}
-
-footer ul li {
- line-height: 22px;
- font-size: 12px;
 }
