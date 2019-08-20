@@ -194,7 +194,7 @@ footer ul li {
 .Rick {
   font-size: 11px;
   margin-top: -10px;
-  color:grey;
+  color :grey;
 }
 
 section {
@@ -204,10 +204,10 @@ section {
   margin-left: 60px;
 }
 
-.two, 
+.two,
 .three {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 #footer {
@@ -260,7 +260,4 @@ footer h3 {
   margin-left: 30px;
 }
 
-footer .title {
-  font-weight: bolder;
-  margin-top: -20px;
-  margin-bottom: 10px; }
+footer .title { font-weight: bolder; margin-top: -20px; margin-bottom: 10px; }
