@@ -5,7 +5,20 @@ body {
 }
 
 
-
+.one p {
+  float: left;
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  margin-left: 280px;
+  color: #666;
+  font-family: nyt-imperial,
+  georgia,
+  'times new roman',
+  times,
+  serif;
+}
 
 .div3{
   align-content: center;
@@ -30,14 +43,14 @@ body {
   font-weight: bold;
 }
 
-}
 
 ul li {
   list-style: none;
 
 }
 
-.list{
+
+.social ul li {
   display: inline;
 }
 
