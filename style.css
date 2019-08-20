@@ -8,7 +8,7 @@ a {
   padding-right: 300px;
   font-size: 15px;
   color: grey;
-  font-weight: 30px;
+  font-size: 30px;
 }
 
 article {
@@ -41,7 +41,6 @@ body {
 }
 
 button {
-  align-content: center;
   height: 30px;
   align-content: right;
   margin-top: 20px;
@@ -49,7 +48,6 @@ button {
   background-color: #6287a5;
   color: white;
   font-weight: 100;
-  margin-top: 10px;
 }
 
 .button {
@@ -110,8 +108,8 @@ div .inflation hr {
 }
 
 @font-face {
-  font-family: Title;
-  src: url(./fonts/Durwent.ttf);
+  font-family: 'Title';
+  src: url('./fonts/Durwent.ttf');
 }
 
 nav {
