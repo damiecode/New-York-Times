@@ -108,7 +108,7 @@ div .inflation hr {
 
 @font-face {
   font-family: 'Title';
-  src: url('./fonts/Durwent.ttf');
+  src: url('./fonts/Durwent.ttf') format('embedded-opentype');
 }
 
 nav {
