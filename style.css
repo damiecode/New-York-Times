@@ -196,7 +196,7 @@ footer ul li {
 .Rick {
   font-size: 11px;
   margin-top: -10px;
-  color :grey;
+  color: grey;
 }
 
 section {
@@ -257,4 +257,8 @@ footer h3 {
   margin-left: 30px;
 }
 
-footer .title { font-weight: bolder; margin-top: -20px; margin-bottom: 10px; }
+footer .title { 
+  font-weight: bolder; 
+  margin-top: -20px; 
+  margin-bottom: 10px; 
+}
