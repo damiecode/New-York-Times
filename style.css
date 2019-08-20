@@ -15,8 +15,8 @@ article {
 }
 
 article h3 {
-   text-align: left;
-   font-size: 20px;
+  text-align: left;
+  font-size: 20px;
  }
 
 aside h3 {
@@ -33,7 +33,6 @@ section img {
   width: 254px;
   height: 169px;
 }
-
 
 .body img {
   width: 847px;
@@ -105,7 +104,6 @@ div .inflation hr {
   font-size: 30px;
   margin-top: 10px;
 }
-
 
 .div3 {
   align-content: center;
