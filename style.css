@@ -32,7 +32,7 @@ body {
 img[src="images/tnyt-logo.png"] {
   width: 195px;
   height: 26px;
-  margin-top:18px; 
+  margin-top: 18px; 
 }
 
 section img {
@@ -261,4 +261,4 @@ footer {
 
 .lastp {
   font-size: 10px;
-}
+} 
