@@ -7,6 +7,18 @@ a {
   color: black;
 }
 
+nav {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  bottom: 100px;
+  float: left;
+}
+
 .allan {
   padding-left: 270px;
   padding-right: 300px;
@@ -39,6 +51,12 @@ img[src="images/tnyt-logo.png"] {
   margin-top: 18px;
 }
 
+img[src="images/inflation-945.png"] {
+  max-width: 100%;
+  margin-top: 18px;
+  margin-left: -20px;
+}
+
 section img {
   width: 254px;
   height: 169px;
@@ -49,15 +67,39 @@ section img {
   height: 476px;
 }
 
+.g-start {
+  font-weight: bold;
+}
+
+figure {
+  position: relative;
+}
+
+figure img {
+  width: 1000px;
+}
+
+figure p {
+  line-height: 1.2;
+  font-size: 11px;
+}
+
+.inflation-img {
+  position: absolute;
+  top: 1100px;
+  left: -20px;
+}
+
 .body p {
   margin-left: 20px;
   margin-right: 20px;
 }
 
+
 button {
   height: 30px;
   align-content: right;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   border-radius: 5px;
   background-color: #6287a5;
   color: white;
@@ -72,7 +114,8 @@ button {
 
 .button1 {
   width: 150px;
-  margin-left: 200px;
+  margin-left: 350px;
+  margin-top: -50px;
 }
 
 .button2 {
@@ -83,6 +126,11 @@ button {
   float: left;
   margin-right: 350px;
   font-size: 12px;
+}
+
+#footer ul {
+  float: left;
+  margin-left: 80px;
 }
 
 #dennis {
@@ -127,19 +175,6 @@ div .inflation hr {
   src: url('./fonts/Durwent.ttf') format('embedded-opentype');
 }
 
-nav {
-  box-sizing: border-box;
-  border: 1px solid #fff;
-  background: #fff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 50px;
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .one {
   text-align: center;
   margin-top: 5px;
@@ -170,9 +205,17 @@ ul li {
   list-style: none;
 }
 
+footer {
+  clear: both;
+}
+
 footer ul li {
   line-height: 22px;
   font-size: 12px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .footer-links ul li {
@@ -199,51 +242,26 @@ footer ul li {
   color: grey;
 }
 
-section {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 3fr 1fr;
-  margin-left: 60px;
-}
-
-.two,
-.three {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-#footer {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 300px;
-}
-
-.div1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .div1 #search {
   flex: left;
-  margin-left: -100px;
-  margin-top: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 .div1 #space {
-  margin-top: 18px;
+  margin-top: 10px;
   font-size: 15px;
-  margin-left: -200px;
+  margin-left: 80px;
 }
 
 .div1 #toggler {
-  margin-left: 10px;
-  margin-top: 18px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.div2 p {
-  font-family: 'Franklin gothic', Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 20px;
+.div1 img {
+  margin-top: 15px;
+  margin-left: 250px;
 }
 
 footer h3 {
