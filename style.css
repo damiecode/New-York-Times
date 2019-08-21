@@ -29,6 +29,12 @@ body {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
+img[src="images/tnyt-logo.png"] {
+  width: 195px;
+  height: 26px;
+  margin-top:18px; 
+}
+
 section img {
   width: 254px;
   height: 169px;
@@ -47,7 +53,7 @@ section img {
 button {
   height: 30px;
   align-content: right;
-  margin-top: 20px;
+  margin-top: 15px;
   border-radius: 5px;
   background-color: #6287a5;
   color: white;
@@ -97,12 +103,6 @@ div .inflation hr {
   width: 50px;
   margin-top: -10px;
   margin-left: -5px;
-}
-
-.div2 h1 {
-  font-family: 'Title', Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  margin-top: 10px;
 }
 
 .div3 {
@@ -259,4 +259,6 @@ footer {
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 
-.lastp { font-size: 10px; }
+.lastp {
+  font-size: 10px;
+}
