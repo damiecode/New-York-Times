@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -257,6 +261,14 @@ footer .title {
 footer {
   margin-top: -300px;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+
+.footer-links {
+  border: 1px solid #fff;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 .lastp {
