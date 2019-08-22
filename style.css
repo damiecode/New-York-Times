@@ -8,21 +8,12 @@ a {
 }
 
 aside{
-
   float: right;
   margin-right: 100px;
- 
   width: 180px;
-
   margin-left: 60px;
   margin-top: 250px;
-   
-
 }
-
-/*.carl3{
-  float:right;
-}*/
 
 aside p{
   font-size: 10px;
