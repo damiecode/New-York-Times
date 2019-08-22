@@ -7,6 +7,53 @@ a {
   color: black;
 }
 
+aside{
+
+  float: right;
+  margin-right: 100px;
+ 
+  width: 180px;
+
+  margin-left: 60px;
+  margin-top: 250px;
+   
+
+}
+
+/*.carl3{
+  float:right;
+}*/
+
+aside p{
+  font-size: 10px;
+  float: left;  
+}
+
+.button3{
+  background-color: #6287a5;
+  width: 180px;
+}
+
+.carl2 {
+  width: 180px;
+  margin-left: 60px;
+  margin-top: 550px;
+}
+
+.carl2 h3 {
+  font-size: 12px;
+}
+
+.carl3 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.carl3 p {
+  float: right;
+}
+
 nav {
   box-sizing: border-box;
   border: 1px solid #fff;
@@ -19,8 +66,11 @@ nav {
   float: left;
 }
 
-hr {
-  margin-bottom: 10px;
+.side-links{
+  float: right;
+  margin-left: 80px;
+  padding-right: 40px;
+
 }
 
 .allan {
@@ -240,6 +290,10 @@ figure img {
   line-height: 18px;
   margin-top: -10px;
   margin-left: -130px;
+}
+
+article {
+  align-content: center;
 }
 
 .body p {
