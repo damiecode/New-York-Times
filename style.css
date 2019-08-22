@@ -7,79 +7,6 @@ a {
   color: black;
 }
 
-aside{
-  float: right;
-  margin-right: 100px;
-  width: 180px;
-  margin-left: 60px;
-  margin-top: 250px;
-}
-
-aside p{
-  font-size: 10px;
-  float: left;  
-}
-
-.button3{
-  background-color: #6287a5;
-  width: 180px;
-}
-
-.carl2 {
-  width: 180px;
-  margin-left: 60px;
-  margin-top: 550px;
-}
-
-.carl2 h3 {
-  font-size: 12px;
-}
-
-.carl3 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-}
-
-.carl3 p {
-  float: right;
-}
-
-nav {
-  box-sizing: border-box;
-  border: 1px solid #fff;
-  background: #fff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 70px;
-  bottom: 100px;
-  float: left;
-}
-
-.side-links{
-  float: right;
-  margin-left: 80px;
-  padding-right: 40px;
-
-}
-
-.allan {
-  padding-left: 270px;
-  padding-right: 300px;
-  font-size: 15px;
-  color: grey;
-}
-
-article {
-  align-content: center;
-}
-
-article h3 {
-  text-align: left;
-  font-size: 20px;
-}
-
 aside {
   float: right;
   margin-right: 100px;
@@ -104,12 +31,85 @@ aside p {
   margin-top: 550px;
 }
 
+article h3 {
+  text-align: left;
+  font-size: 20px;
+}
+
+footer h3 {
+  font-family: 'Title', Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.carl2 h3 {
+  font-size: 12px;
+}
+
+.carl3 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+aside p {
+  font-size: 10px;
+  float: left;
+}
+
+.carl3 p {
+  float: right;
+}
+
+nav {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  bottom: 100px;
+  float: left;
+}
+
+.side-links {
+  float: right;
+  margin-left: 80px;
+  padding-right: 40px;
+}
+
+.allan {
+  padding-left: 270px;
+  padding-right: 300px;
+  font-size: 15px;
+  color: grey;
+}
+
+article {
+  align-content: center;
+}
+
+.button3 {
+  background-color: #6287a5;
+  width: 180px;
+}
+
 .carl2 h3 {
   font-size: 12px;
 }
 
 .carl3 {
   clear: both;
+}
+
+figure img {
+  width: 1000px;
+}
+
+section img {
+  width: 254px;
+  height: 169px;
 }
 
 .carl3 img {
@@ -122,6 +122,10 @@ aside p {
 .carl3 p {
   float: right;
   font-size: 11px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .carl3 a:hover {
@@ -150,18 +154,9 @@ img[src="images/inflation-945.png"] {
   margin-left: -20px;
 }
 
-figure img {
-  width: 1000px;
-}
-
 section {
   display: flex;
   margin-left: 30px;
-}
-
-section img {
-  width: 254px;
-  height: 169px;
 }
 
 .body img {
@@ -409,10 +404,6 @@ footer ul li {
   font-size: 12px;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 .footer-links ul li {
   display: inline-block;
   margin-left: 25px;
@@ -456,12 +447,6 @@ footer a:hover {
 .div1 img {
   margin-top: 15px;
   margin-left: 250px;
-}
-
-footer h3 {
-  font-family: 'Title', Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin-left: 25px;
 }
 
 footer .title {
