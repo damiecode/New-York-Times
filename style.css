@@ -42,23 +42,13 @@ footer h3 {
   margin-left: 25px;
 }
 
-.carl2 h3 {
-  font-size: 12px;
+figure img {
+  width: 1000px;
 }
 
-.carl3 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-}
-
-aside p {
-  font-size: 10px;
-  float: left;
-}
-
-.carl3 p {
-  float: right;
+section img {
+  width: 254px;
+  height: 169px;
 }
 
 nav {
@@ -73,12 +63,6 @@ nav {
   float: left;
 }
 
-.side-links {
-  float: right;
-  margin-left: 80px;
-  padding-right: 40px;
-}
-
 .allan {
   padding-left: 270px;
   padding-right: 300px;
@@ -90,26 +74,12 @@ article {
   align-content: center;
 }
 
-.button3 {
-  background-color: #6287a5;
-  width: 180px;
-}
-
 .carl2 h3 {
   font-size: 12px;
 }
 
 .carl3 {
   clear: both;
-}
-
-figure img {
-  width: 1000px;
-}
-
-section img {
-  width: 254px;
-  height: 169px;
 }
 
 .carl3 img {
@@ -276,10 +246,6 @@ figure img {
   line-height: 18px;
   margin-top: -10px;
   margin-left: -130px;
-}
-
-article {
-  align-content: center;
 }
 
 .body p {
