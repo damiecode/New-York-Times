@@ -47,7 +47,6 @@ figure img {
   height: 648px;
 }
 
-
 section img {
   width: 254px;
   height: 169px;
@@ -455,8 +454,8 @@ footer .title {
 .column {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
   flex: 1;
+  flex-basis: 100%;
   margin: 0 4px;
 }
 
@@ -475,6 +474,6 @@ footer .title {
 .column1 {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
   flex: 1;
+  flex-basis: 100%;
 }
