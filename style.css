@@ -44,7 +44,9 @@ footer h3 {
 
 figure img {
   width: 1000px;
+  height: 648px;
 }
+
 
 section img {
   width: 254px;
@@ -141,11 +143,6 @@ section {
 figure {
   position: relative;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-}
-
-figure img {
-  width: 800px;
-  height: 648px;
 }
 
 .inflation-img {
