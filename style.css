@@ -21,7 +21,7 @@ nav {
 }
 
 .side-links{
-  
+  background-color: lightgreen;
   float: right;
   padding-right: 50px;
   margin-left: 20px;
@@ -166,6 +166,9 @@ div .inflation hr {
 
 section {
   display: flex;
+ /* grid-template-columns: 3fr 1fr;
+  grid-template-rows:  3fr 1fr;
+  margin-left: 60px;*/
 }
 
 section img {
@@ -174,7 +177,8 @@ section img {
 }
 
 .two,.three {
-
+  /*display: grid;
+  grid-template-columns: repeat(3,1fr);*/
   display: flex;
   width: 500px;
 
@@ -295,7 +299,7 @@ footer ul li {
 
 .some-page-wrapper {
   margin: 15px;
-  
+  /*background-color: red;*/
 
 }
 
