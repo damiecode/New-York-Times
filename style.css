@@ -79,15 +79,22 @@ figure {
   position: relative;
 }
 
-figure p {
-  line-height: 1.2;
-  font-size: 11px;
-}
-
 .inflation-img {
   position: absolute;
-  top: 1100px;
-  left: -20px;
+  top: 3240px;
+  left: 320px;
+  line-height: 1.2;
+  word-spacing: -1.5px;
+  font-size: 10px;
+}
+
+.inflation-img1 {
+  position: absolute;
+  top: 3240px;
+  left: 320px;
+  line-height: 1.2;
+  word-spacing: -1.5px;
+  font-size: 10px;
 }
 
 .body p {
