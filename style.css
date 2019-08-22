@@ -1,11 +1,48 @@
 body {
   margin: auto;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+@font-face {
+  font-family: Title;
+  src: url(./fonts/Durwent.ttf);
+}
+
+nav {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.side-links{
+  
+  float: right;
+  padding-right: 50px;
+  margin-left: 20px;
+}
+
+.div2 h1 {
+  font-family: Title;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+aside h3 {
+  text-align: left;
 }
 
 hr{
   margin-bottom: 10px;
+}
+
+.one h1{
+  margin-top: 100px;
 }
 
 .one p {
@@ -25,6 +62,8 @@ hr{
 
 .div3{
   align-content: center;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   padding: 350px;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -32,29 +71,39 @@ hr{
 
 .div3 img{
   width: 650px;
-
 }
 
 .lastp{
-
   font-size: 10px;
-
-
 }
 
 #dennis{
   font-weight: bold;
+  margin-bottom: -20px;
+  font-size: 12px;
 }
 
 
 ul li {
   list-style: none;
-
 }
 
+.date {
+  float: left;
+  margin-right: 350px;
+  font-size: 12px;
+}
+
+#social ul li {
+  display: inline;
+  margin-right: 10px;
+  color: #ccc;
+}
 
 .social ul li {
   display: inline;
+  color: #ccc;
+  margin-right: 10px;
 }
 
 a {
@@ -63,7 +112,6 @@ a {
 }
 
 .one {
- /* background-color: purple;*/
   text-align: center;
   margin-top: 5px;
 }
@@ -74,7 +122,6 @@ a {
 
 
 .one h1{
-
    text-align: center;
 }
 
@@ -87,16 +134,15 @@ a {
 }
 
 .Rick{
-
   font-size: 11px;
   margin-top: -10px;
   color:grey;
   font-weight: 10px;
 }
 
-h3{
-
-  text-align: center;
+ article h3{
+  text-align: left;
+  font-size: 20px;
 }
 
 .body img {
@@ -108,10 +154,18 @@ h3{
   margin-right: 20px;
 }
 
+ div .inflation {
+  font-size: 14px;
+}
+
+div .inflation hr {
+  width: 50px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
 section {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows:  3fr 1fr;
+  display: flex;
 }
 
 section img {
@@ -120,35 +174,38 @@ section img {
 }
 
 .two,.three {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+
+  display: flex;
+  width: 500px;
+
+
+}
+
+
 }
 
 #footer {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 300px;
-}
+  display: inline-flex;
 
+}
+  
+
+.footer-links hr {
+  margin-top: 20px;
+}
 .footer-links ul li {
   display: inline-block;
+  margin-left: 25px;
+  color: #ccc;
 }
 
 nav{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /*background-color: blue;*/
-
-
 }
 
-
 article {
-
   align-content: center;
-  
-   
-
 }
 
 button{
@@ -156,17 +213,23 @@ button{
   height: 30px;
   align-content: right;
   margin-top: 20px;
-  border-radius: 4px;
-  background-color: lightblue;
+  border-radius: 5px;
+  background-color: #6287a5;
   color: white;
   font-weight: 100;
+  margin-top: 10px;
 }
 
-.div1{
+.button {
+  float: left;
+  margin-right: 350px;
+  margin-top: -10px;
+}
 
+
+.div1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /*background-color: pink;*/
 }
 
 .div1 #toggler{
@@ -186,18 +249,10 @@ button{
   margin-left: -200px;
 }
 
-
-.div2{
-  
-  /*background-color: red;*/
-}
-
 .div2 p{
-
-  font-family: Franklin gothic;
+  
   text-align: center;
   font-size: 20px;
-
 }
 
 .button1{
@@ -207,4 +262,74 @@ button{
 
 .button2{
   width: 90px;
+}
+
+footer{
+
+  font-family: nyt-franklin;
+  background-color: pink;
+
+}
+
+footer h3 {
+  font-family: Title;
+  text-align: left;
+  margin-left: 30px;
+}
+
+footer .title {
+  font-weight: bolder;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+footer ul li {
+ line-height: 22px;
+ font-size: 12px;
+}
+
+.quick-links{
+  float: left;
+}
+
+
+.some-page-wrapper {
+  margin: 15px;
+  
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin:0 25px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 0 4px;
+}
+
+.some-page-wrapper1 {
+  display: flex;
+  margin: 15px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
