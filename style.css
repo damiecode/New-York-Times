@@ -9,6 +9,56 @@ body {
   src: url(./fonts/Durwent.ttf);
 }
 
+aside{
+
+  float: right;
+  margin-right: 100px;
+ 
+  width: 180px;
+
+  margin-left: 60px;
+  margin-top: 250px;
+   
+
+}
+
+/*.carl3{
+  float:right;
+}*/
+
+aside p{
+  font-size: 10px;
+  float: left;  
+}
+
+.button3{
+  background-color: #6287a5;
+  width: 180px;
+}
+
+.carl2{
+
+  
+  background-color: green;
+  width: 180px;
+  margin-left: 60px;
+  margin-top: 550px;
+}
+
+.carl2 h3{
+  font-size: 12px;
+}
+
+.carl3 img{
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.carl3 p{
+  float: right;
+}
+
 nav {
   box-sizing: border-box;
   border: 1px solid #fff;
@@ -23,8 +73,8 @@ nav {
 .side-links{
   background-color: lightgreen;
   float: right;
-  padding-right: 50px;
-  margin-left: 20px;
+  margin-left: 80px;
+  padding-right: 40px;
 }
 
 .div2 h1 {
@@ -205,7 +255,9 @@ nav{
 }
 
 article {
+
   align-content: center;
+
 }
 
 button{
