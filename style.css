@@ -19,6 +19,10 @@ nav {
   float: left;
 }
 
+hr {
+  margin-bottom: 10px;
+}
+
 .allan {
   padding-left: 270px;
   padding-right: 300px;
@@ -35,7 +39,55 @@ article h3 {
   font-size: 20px;
 }
 
-aside h3 {
+aside {
+  float: right;
+  margin-right: 100px;
+  width: 180px;
+  margin-left: 60px;
+  margin-top: 250px;
+}
+
+aside p {
+  font-size: 10px;
+  float: left;
+}
+
+.button3 {
+  background-color: #6287a5;
+  width: 180px;
+}
+
+.carl2 {
+  width: 180px;
+  margin-left: 60px;
+  margin-top: 550px;
+}
+
+.carl2 h3 {
+  font-size: 12px;
+}
+
+.carl3 {
+  clear: both;
+}
+
+.carl3 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.carl3 p {
+  float: right;
+  font-size: 11px;
+}
+
+.carl3 a:hover {
+  text-decoration: underline;
+}
+
+.aside h3 {
   text-align: left;
 }
 
@@ -57,13 +109,18 @@ img[src="images/inflation-945.png"] {
   margin-left: -20px;
 }
 
+figure img {
+  width: 1000px;
+}
+
+section {
+  display: flex;
+  margin-left: 30px;
+}
+
 section img {
   width: 254px;
   height: 169px;
-}
-
-figure img {
-  width: 1000px;
 }
 
 .body img {
@@ -77,24 +134,112 @@ figure img {
 
 figure {
   position: relative;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+
+figure img {
+  width: 800px;
+  height: 648px;
 }
 
 .inflation-img {
   position: absolute;
-  top: 3240px;
-  left: 320px;
-  line-height: 1.2;
+  top: 200px;
+  left: -70px;
+  line-height: 1.5;
+  width: 228px;
   word-spacing: -1.5px;
-  font-size: 10px;
+  font-size: 11px;
+  margin-top: -13px;
 }
 
 .inflation-img1 {
   position: absolute;
-  top: 3240px;
-  left: 320px;
-  line-height: 1.2;
+  top: 200px;
+  left: 120px;
+  line-height: 1.5;
+  width: 228px;
   word-spacing: -1.5px;
-  font-size: 10px;
+  font-size: 11px;
+  margin-top: -13px;
+}
+
+.inflation-img2 {
+  position: absolute;
+  top: 200px;
+  left: 310px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+}
+
+.inflation-img3 {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+}
+
+.inflation-img4 {
+  position: absolute;
+  top: 530px;
+  left: -70px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+}
+
+.inflation-img5 {
+  position: absolute;
+  top: 530px;
+  left: 120px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+}
+
+.inflation-img6 {
+  position: absolute;
+  top: 530px;
+  left: 305px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+}
+
+.inflation-img7 {
+  position: absolute;
+  top: 530px;
+  left: 500px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+}
+
+.inflation h2 {
+  margin-left: -130px;
+}
+
+.inflation-p {
+  font-size: 15px;
+  color: grey;
+  line-height: 18px;
+  margin-top: -10px;
+  margin-left: -130px;
 }
 
 .body p {
@@ -136,6 +281,7 @@ button {
 #footer ul {
   float: left;
   margin-left: 80px;
+  margin-bottom: 30px;
 }
 
 #dennis {
@@ -146,10 +292,7 @@ button {
 
 div .inflation {
   font-size: 14px;
-}
-
-hr {
-  margin-bottom: 10px;
+  width: 1000px;
 }
 
 .footer-links hr {
@@ -203,7 +346,7 @@ div .inflation hr {
   margin-right: 7px;
   margin-left: 280px;
   color: #666;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
 }
 
 ul li {
@@ -211,7 +354,7 @@ ul li {
 }
 
 footer {
-  margin-top: -300px;
+  margin-top: -30px;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   clear: both;
 }
@@ -228,7 +371,6 @@ footer a:hover {
 .footer-links ul li {
   display: inline-block;
   margin-left: 25px;
-  color: #ccc;
 }
 
 .social ul li {
@@ -274,7 +416,7 @@ footer a:hover {
 footer h3 {
   font-family: 'Title', Arial, Helvetica, sans-serif;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 footer .title {
@@ -293,4 +435,53 @@ footer .title {
 
 .lastp {
   font-size: 10px;
+}
+
+.side-links {
+  float: right;
+  padding-right: 50px;
+  margin-left: 150px;
+}
+
+.quick-links {
+  float: left;
+}
+
+.some-page-wrapper {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 25px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 0 4px;
+}
+
+.some-page-wrapper1 {
+  display: flex;
+  margin: 15px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
