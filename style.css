@@ -308,18 +308,18 @@ button {
   font-size: 12px;
 }
 
+.inflation {
+  text-align: center;
+}
+
 div .inflation {
   font-size: 14px;
   width: 1000px;
 }
 
-.inflation {
-  text-align: center;
-}
-
-.quick-links > p,
-.quick-links > hr,
-.aside > h3 {
+.quick-links>p,
+.quick-links>hr,
+.aside>h3 {
   margin-left: 50px;
 }
 
