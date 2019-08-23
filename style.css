@@ -317,9 +317,9 @@ div .inflation {
   width: 1000px;
 }
 
-.quick-links>p,
-.quick-links>hr,
-.aside>h3 {
+.quick-links > p,
+.quick-links > hr,
+.aside > h3 {
   margin-left: 50px;
 }
 
