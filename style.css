@@ -36,15 +36,17 @@ article h3 {
   font-size: 20px;
 }
 
-footer h3 {
+.title1 {
   font-family: 'Title', Arial, Helvetica, sans-serif;
   text-align: left;
   margin-left: 25px;
 }
 
 figure img {
+  display: flex;
   width: 1000px;
   height: 648px;
+  align-self: center;
 }
 
 section img {
@@ -144,6 +146,10 @@ figure {
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 
+.name {
+  text-align: left;
+}
+
 .inflation-img {
   position: absolute;
   top: 200px;
@@ -153,6 +159,7 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation-img1 {
@@ -164,6 +171,7 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation-img2 {
@@ -175,6 +183,7 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation-img3 {
@@ -186,6 +195,7 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation-img4 {
@@ -197,6 +207,7 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation-img5 {
@@ -208,6 +219,7 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation-img6 {
@@ -219,6 +231,7 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation-img7 {
@@ -230,10 +243,13 @@ figure {
   word-spacing: -1.5px;
   font-size: 11px;
   margin-top: -13px;
+  text-align: left;
 }
 
 .inflation h2 {
-  margin-left: -130px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
 }
 
 .inflation-p {
@@ -241,7 +257,7 @@ figure {
   color: grey;
   line-height: 18px;
   margin-top: -10px;
-  margin-left: -130px;
+  text-align: left;
 }
 
 .body p {
@@ -295,6 +311,10 @@ button {
 div .inflation {
   font-size: 14px;
   width: 1000px;
+}
+
+.inflation {
+  text-align: center;
 }
 
 .footer-links hr {
@@ -439,6 +459,12 @@ footer .title {
   float: left;
 }
 
+.quick-links>p,
+.quick-links>hr,
+.aside>h3 {
+  margin-left: 50px;
+}
+
 .some-page-wrapper {
   margin: 15px;
 }
@@ -455,7 +481,6 @@ footer .title {
   display: flex;
   flex-direction: column;
   flex: 1;
-  flex-basis: 100%;
   margin: 0 4px;
 }
 
@@ -475,5 +500,8 @@ footer .title {
   display: flex;
   flex-direction: column;
   flex: 1;
-  flex-basis: 100%;
+}
+
+.img1 {
+  margin-left: 30px;
 }
