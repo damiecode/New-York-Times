@@ -1,0 +1,507 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+aside {
+  float: right;
+  margin-right: 100px;
+  width: 180px;
+  margin-left: 60px;
+  margin-top: 250px;
+}
+
+aside p {
+  font-size: 10px;
+  float: left;
+}
+
+.button3 {
+  background-color: #6287a5;
+  width: 180px;
+}
+
+.carl2 {
+  width: 180px;
+  margin-left: 60px;
+  margin-top: 550px;
+}
+
+article h3 {
+  text-align: left;
+  font-size: 20px;
+}
+
+.title1 {
+  font-family: 'Title', Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-left: 25px;
+}
+
+figure img {
+  display: flex;
+  width: 1000px;
+  height: 648px;
+  align-self: center;
+}
+
+section img {
+  width: 254px;
+  height: 169px;
+}
+
+nav {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  bottom: 100px;
+  float: left;
+}
+
+.allan {
+  padding-left: 270px;
+  padding-right: 300px;
+  font-size: 15px;
+  color: grey;
+}
+
+article {
+  align-content: center;
+}
+
+.carl2 h3 {
+  font-size: 12px;
+}
+
+.carl3 {
+  clear: both;
+}
+
+.carl3 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.carl3 p {
+  float: right;
+  font-size: 11px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.carl3 a:hover {
+  text-decoration: underline;
+}
+
+.aside h3 {
+  text-align: left;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+img[src="images/tnyt-logo.png"] {
+  width: 195px;
+  height: 26px;
+  margin-top: 18px;
+}
+
+img[src="images/inflation-945.png"] {
+  max-width: 100%;
+  margin-top: 18px;
+  margin-left: -20px;
+}
+
+section {
+  display: flex;
+  margin-left: 30px;
+}
+
+.body img {
+  width: 847px;
+  height: 476px;
+}
+
+.g-start {
+  font-weight: bold;
+}
+
+figure {
+  position: relative;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+
+.name {
+  text-align: left;
+}
+
+.inflation-img {
+  position: absolute;
+  top: 200px;
+  left: -70px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation-img1 {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation-img2 {
+  position: absolute;
+  top: 200px;
+  left: 310px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation-img3 {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation-img4 {
+  position: absolute;
+  top: 530px;
+  left: -70px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation-img5 {
+  position: absolute;
+  top: 530px;
+  left: 120px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation-img6 {
+  position: absolute;
+  top: 530px;
+  left: 305px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation-img7 {
+  position: absolute;
+  top: 530px;
+  left: 500px;
+  line-height: 1.5;
+  width: 228px;
+  word-spacing: -1.5px;
+  font-size: 11px;
+  margin-top: -13px;
+  text-align: left;
+}
+
+.inflation h2 {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.inflation-p {
+  font-size: 15px;
+  color: grey;
+  line-height: 18px;
+  margin-top: -10px;
+  text-align: left;
+}
+
+.body p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button {
+  height: 30px;
+  align-content: flex-end;
+  border-radius: 5px;
+  background-color: #6287a5;
+  color: white;
+  font-weight: 100;
+}
+
+.button {
+  float: left;
+  margin-right: 350px;
+  margin-top: -10px;
+}
+
+.button1 {
+  width: 150px;
+  margin-left: 350px;
+  margin-top: -50px;
+}
+
+.button2 {
+  width: 90px;
+}
+
+.date {
+  float: left;
+  margin-right: 350px;
+  font-size: 12px;
+}
+
+#footer ul {
+  float: left;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
+#dennis {
+  font-weight: bold;
+  margin-bottom: -20px;
+  font-size: 12px;
+}
+
+.inflation {
+  text-align: center;
+}
+
+div .inflation {
+  font-size: 14px;
+  width: 1000px;
+}
+
+.quick-links > p,
+.quick-links > hr,
+.aside > h3 {
+  margin-left: 50px;
+}
+
+.footer-links hr {
+  margin-top: 20px;
+}
+
+div .inflation hr {
+  width: 50px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+.div3 {
+  align-content: center;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  padding: 350px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.div3 img {
+  width: 650px;
+}
+
+@font-face {
+  font-family: 'Title';
+  src: url('./fonts/Durwent.ttf') format('embedded-opentype');
+}
+
+.one {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.one h1 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.one img {
+  height: 500px;
+  width: 800px;
+}
+
+.one p {
+  float: left;
+  text-align: left;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  margin-left: 280px;
+  color: #666;
+  font-family: 'nyt-imperial', georgia, 'times new roman', times, serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+footer {
+  margin-top: -30px;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  clear: both;
+}
+
+footer ul li {
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.social ul li {
+  display: inline;
+  color: #ccc;
+  margin-right: 10px;
+}
+
+#social ul li {
+  display: inline;
+  margin-right: 10px;
+  color: #ccc;
+}
+
+.Rick {
+  font-size: 11px;
+  margin-top: -10px;
+  color: grey;
+}
+
+.div1 #search {
+  flex: flex-start;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.div1 #space {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+.div1 #toggler {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.div1 img {
+  margin-top: 15px;
+  margin-left: 250px;
+}
+
+footer .title {
+  font-weight: bolder;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  border: 1px solid #fff;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.lastp {
+  font-size: 10px;
+}
+
+.side-links {
+  float: right;
+  padding-right: 50px;
+  margin-left: 150px;
+}
+
+.quick-links {
+  float: left;
+}
+
+.some-page-wrapper {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 25px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 4px;
+}
+
+.some-page-wrapper1 {
+  display: flex;
+  margin: 15px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.img1 {
+  margin-left: 30px;
+}
