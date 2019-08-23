@@ -317,6 +317,12 @@ div .inflation {
   text-align: center;
 }
 
+.quick-links > p,
+.quick-links > hr,
+.aside > h3 {
+  margin-left: 50px;
+}
+
 .footer-links hr {
   margin-top: 20px;
 }
@@ -457,12 +463,6 @@ footer .title {
 
 .quick-links {
   float: left;
-}
-
-.quick-links>p,
-.quick-links>hr,
-.aside>h3 {
-  margin-left: 50px;
 }
 
 .some-page-wrapper {
